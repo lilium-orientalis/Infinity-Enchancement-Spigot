@@ -1,6 +1,6 @@
 name: Infinity_Enchancement
-version: 1.1.2
+version: 1.1.3
 description: "Buffs the Infinity enchantment to work with all arrow types"
 author: Lily Soares
 main: com.llsoares.Main
-api-version: "1.18"
+api-version: "1.13"

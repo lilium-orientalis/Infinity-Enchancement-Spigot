@@ -3,7 +3,7 @@ package com.llsoares;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
-    private BowShotListener bowShotListener = new BowShotListener();
+    private final BowShotListener bowShotListener = new BowShotListener();
 
     @Override
     public void onEnable() {
@@ -14,4 +14,6 @@ public class Main extends JavaPlugin {
     public void onDisable() {
         super.onDisable();
     }
+
+    public static void main(String[] args){}
 }
